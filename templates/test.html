@@ -1,11 +1,13 @@
 <html>
-    <head>
-        <title>Par autoru </title>
-        <meta charset="UTF-8"/>
-    </head>
     <body>
+        <h1>Parametri no servera </h1>
         {% for parametrs in parametri %}  
-        <h1>{{parametrs}}</h1>
+        {% endfor %}
+       
+        {% for image in images %}  
+        <img src"{{image}}" width="400"/>
+        <br>
         {% endfor %}      
+        <p>'s'is ir bildes!</p>
     </body>
 </html>
